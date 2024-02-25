@@ -13,3 +13,9 @@ class Settings:
             self.supply_volume = supply_volume
         else:
             raise ValueError('Supply volume must be positive')
+        self.supply_price = supply_price
+        self.supply_iters = supply_iters
+        self.consumers_amount = consumers_amount
+        self.income_min, self.income_max = income_bounds
+        self.income_delta = income_delta
+        self.number_of_days = number_of_days
